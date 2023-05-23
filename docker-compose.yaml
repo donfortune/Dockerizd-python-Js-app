@@ -2,7 +2,7 @@ version: "3"
 
 services:
   frontend:
-      image: habibo1234/investment-fe:2.0
+      image: habibo1234/investment-fe:2.0 #your dockerimage from your docker repo
       container_name: frontend
       ports:
           - 3000:3000
